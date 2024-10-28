@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'Montserrat'; /* Replace with the name of your font */
+    src: url('../public/fonts/Montserrat-Italic-VariableFont_wght.ttf') format('woff2'), /* Adjust the file path and format */
+         url('../public/fonts/Montserrat-VariableFont_wght.ttf') format('woff');
+    font-weight: normal; /* Adjust based on your font weights */
+    font-style: normal; /* Adjust based on your font styles */
+}
