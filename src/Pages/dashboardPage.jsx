@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import MainLayout from "../MainLayout";
+import { useNavigate } from "react-router-dom"; 
 const Dashboard = () => {
-    
+    const navigate = useNavigate();
+    const handleClick = () => {
+        navigate('/shop');
+    }
     return (
         <MainLayout>
             <div className="grid grid-cols-1    ">
@@ -13,7 +17,7 @@ const Dashboard = () => {
                 <div className="grid grid-cols-2">
                     <div className="bg-black flex flex-col justify-center items-center ">
                         <p className="text-6xl text-white text-center mb-4">NEW ARRIVALS</p>
-                        <button className="bg-transparent border-2 border-white text-white  py-2 p-5 text-xl">SHOP NOW</button>
+                        <button className="bg-transparent border-2 border-white text-white  py-2 p-5 text-xl" onClick={handleClick}>SHOP NOW</button>
                     </div>
                     <div className="bg-[url('../public/2.webp')] h-screen bg-cover bg-center"></div>
                 </div>
