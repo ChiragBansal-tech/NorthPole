@@ -5,7 +5,7 @@ const Dashboard = () => {
     return (
         <MainLayout>
             <div className="grid grid-cols-1    ">
-                <div className=" grid h-screen bg-cover bg-center bg-[url('1.webp')]" >
+                <div className=" grid h-screen bg-cover bg-center bg-[url('../public/1.webp')]" >
                     <p className="text-7xl text-white justify-center items-center self-center text-center font-bold">
                         PLAN YOUR ADVENTURE
                     </p>
@@ -15,7 +15,7 @@ const Dashboard = () => {
                         <p className="text-6xl text-white text-center mb-4">NEW ARRIVALS</p>
                         <button className="bg-transparent border-2 border-white text-white  py-2 p-5 text-xl">SHOP NOW</button>
                     </div>
-                    <div className="bg-[url('2.webp')] h-screen bg-cover bg-center"></div>
+                    <div className="bg-[url('../public/2.webp')] h-screen bg-cover bg-center"></div>
                 </div>
                 <div className="grid grid-cols-3">
                     <div className="bg-[url('../public/3.jpg')] h-[500px] bg-cover bg-center"></div>
@@ -27,7 +27,7 @@ const Dashboard = () => {
                     <div className="bg-[url('../public/b-2.webp')]"></div>
                     <div className="bg-[url('../public/b-3.webp')]"></div>
                 </div>
-                <div className=" grid grid-cols-2 h-[650px] bg-[url('4.webp')] bg-cover" id='about'>
+                <div className=" grid grid-cols-2 h-[650px] bg-[url('../public/4.webp')] bg-cover" id='about'>
                     <div className="bg-black opacity-70 flex flex-col justify-center items-center">
                         <p className="text-4xl text-white text-center mb-4">ABOUT US</p>
                         <p className="text-lg text-white text-left mx-20">I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
