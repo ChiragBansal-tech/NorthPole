@@ -18,7 +18,7 @@ const MainLayout = ({ children }) => {
     }, [isAuthenticated]);
 
     const handleClick1 = () => { 
-        navigate('/dashboard')
+        navigate('/')
         setTimeout(() => {
             handleScroll("about"); 
         }, 10)        
@@ -64,8 +64,8 @@ const MainLayout = ({ children }) => {
                                 <div className="hidden sm:ml-6 sm:block">
                                     <div className="flex space-x-4">
                                         <Link
-                                            to="/dashboard"
-                                            className={`rounded-md px-3 py-2 text-sm font-medium ${location.pathname === "/dashboard"
+                                            to="/"
+                                            className={`rounded-md px-3 py-2 text-sm font-medium ${location.pathname === "/"
                                                 ? "bg-gray-900 text-white"
                                                 : "text-gray-300 hover:bg-gray-700 hover:text-white"
                                                 }`}
