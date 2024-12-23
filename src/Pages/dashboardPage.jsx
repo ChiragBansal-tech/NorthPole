@@ -18,14 +18,14 @@ const Dashboard = () => {
                     <div className="bg-[url('2.webp')] h-screen bg-cover bg-center"></div>
                 </div>
                 <div className="grid grid-cols-3">
-                    <div className="bg-[url('3.jpg')] h-[500px] bg-cover bg-center"></div>
-                    <div className="bg-[url('3.jpg')] h-[500px] bg-cover bg-center"></div>
-                    <div className="bg-[url('3.jpg')] h-[500px] bg-cover bg-center"></div>
+                    <div className="bg-[url('../public/3.jpg')] h-[500px] bg-cover bg-center"></div>
+                    <div className="bg-[url('../public/3.jpg')] h-[500px] bg-cover bg-center"></div>
+                    <div className="bg-[url('../public/3.jpg')] h-[500px] bg-cover bg-center"></div>
                 </div>
                 <div className="bg-black h-[550px] grid grid-cols-3 p-20">
-                    <div className="bg-[url('b-1.webp')]"></div>
-                    <div className="bg-[url('b-2.webp')]"></div>
-                    <div className="bg-[url('b-3.webp')]"></div>
+                    <div className="bg-[url('../public/b-1.webp')]"></div>
+                    <div className="bg-[url('../public/b-2.webp')]"></div>
+                    <div className="bg-[url('../public/b-3.webp')]"></div>
                 </div>
                 <div className=" grid grid-cols-2 h-[650px] bg-[url('4.webp')] bg-cover" id='about'>
                     <div className="bg-black opacity-70 flex flex-col justify-center items-center">
