@@ -16,11 +16,11 @@ export default function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         {/* <Route path="/otp/:userId" element={<OtpPage/>} /> */}
-        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/" element={<Dashboard />} />
         {/* <Route path="/adminDashboard" element={<AdminDashboard />} /> */}
         <Route path="/shop" element={<ShopPage />} /> 
         <Route path="/productdetails/:productId" element={<ProductDetails />} />
-        <Route path="/cart" element={<CartPage />} />
+        <Route path="/cart" element={<CartPage />} /> 
       </Routes>
     </Router>
   );

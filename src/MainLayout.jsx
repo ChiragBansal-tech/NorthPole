@@ -25,7 +25,7 @@ const MainLayout = ({ children }) => {
     }
     
     const handleClick2 = () => {
-        navigate('/dashboard')
+        navigate('/')
         setTimeout(() => {
             handleScroll("contact"); 
         }, 10)        

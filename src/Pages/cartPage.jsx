@@ -57,7 +57,7 @@ const CartPage = () => {
     if (cartItems.length === 0) {
         return (
             <MainLayout>
-                <div className="bg-black h-screen text-gray-400">
+                <div className="ABC bg-black h-screen text-gray-400">
                     <div className="border-b-2 border-gray-400 mx-20 pt-[120px] text-center pb-5">
                         <p className="text-gray-400 text-5xl">Your Cart Is Empty</p>
                     </div>
