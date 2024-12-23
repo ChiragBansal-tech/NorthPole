@@ -33,7 +33,7 @@ export default {
         'custom': '70% 30%',
       },
       backgroundImage: {
-        'bg': 'url(../public/fonts/1.webp)'
+        'bg': 'url(../public/1.webp)'
       }
     },
   },
